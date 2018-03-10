@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"-----------修改了-----------");
 }
 
 
@@ -31,7 +32,7 @@
 }
 
 - (NSString *)showPersonName:(Person *)p {
-    
+    return p.name;
 }
 
 
